@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Lato', sans-serif !important;
+    background-color: #343e47;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 80px
+}
+span.bitvalue {
+    color: #FEC606;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border: 0px;
+    padding: 20px 0;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand i {
+    color: #FEC606;
+}
+#ticker {
+    padding: 100px 0px 80px 0px;
+    text-align: center;
+    color: #fff;
+    margin-top: -110px;
+    background-color: #343e47;
+}
+#ticker h2 {
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#ticker p span {
+    margin-top: 20px;
+}
+#ticker p span {
+    margin: 0 10px;
+}
+.btn-trans {
+    color: #fff;
+    background-color: rgba(255,255,255,0.3);
+    border: 0px;
+    border-radius: 210px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-trans:hover {
+    color: #111;
+    background-color: rgba(255,255,255,1);
+    border: 0px;
+    border-radius: 210px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-trans:hover i {
+    color: #3D8EB9;
+}
+
+/* Section */
+#features {
+    background: #111;
+    padding: 30px 0;
+}
+.feature {
+    padding: 0 0 0 70px;
+    position: relative;
+}
+.feature h3 {
+    color: #fff;
+}
+.feature p {
+    color: #aaa;
+}
+.feature .icon {
+    position: absolute;
+    left: 0;
+}
+.feature .icon i {
+    color: #FEC606;
+    font-size: 50px;
+}
+#footer {
+    color: #aaa;
+    background: #111;
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+}
+#footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #fff;
+}
+
+/* Colors */
+.green {
+    color: #71BA51;
+}
+.blue {
+    color: #3D8EB9;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+/* Ads */
+.ads {
+    text-align: center;
+}
+
+/* Mobile */
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .navbar-header {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #ticker {
+        padding: 70px 0px 50px 0px;
+    }
+    #ticker h2 {
+        font-size: 21px;
+    }
+    .navbar-brand {
+        float: inherit;
+        height: 50px;
+    }
+}
