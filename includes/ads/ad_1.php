@@ -1,3 +1,11 @@
+<?php
+/*
+ *
+ * Copyright (c) 2017 Ivan Mihov mihovim@gmail.com
+ *
+ */
+?>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block"

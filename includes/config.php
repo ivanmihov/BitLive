@@ -1,4 +1,10 @@
 <?php
+/*
+ *
+ * Copyright (c) 2017 Ivan Mihov mihovim@gmail.com
+ *
+ */
+
 $config['site_title'] = 'BitLive - Realtime Bitcoin price!'; // Website Title
 $config['site_meta'] = 'BitLive - Realtime Bitcoin price!'; // Site meta description
 $config['site_name'] = 'BitLive'; // Your site name, used in the logo and other things
